@@ -34,6 +34,8 @@ digitoUnidades n = mod n 10
 todoMenor :: (Integer,Integer) -> (Integer,Integer) -> Bool
 todoMenor (m,n) (m1,n1) | m > m1 && n > n1 = True 
                         | m < m1 || n < n1 = False
+                        
+--otra forma de escribirlo es con fst y snd
 
 --ej2, Prctico3 : Haskell
 
